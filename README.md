@@ -28,8 +28,8 @@ Outputs:
 - `ig_counts_following_mobile.csv` — counts for all scanned users
 - `ig_negative_ratio_following_mobile.csv` — only negative-ratio accounts
 
-## FYI
-If you notice the code producing `None` results for profiles (username_234: followers=None, following=None), means your IP is throttled. Don't freak out, just means you need to wait for 30-60 mins but sometimes can be up to a few hours. You can re-run to check if still happening but don't spam too much to prevent account getting resticted, hasn't happen to me yet... *knocks on wood*
+## If getting `None` results
+If you notice the code producing `None` results for profiles (username_234: followers=None, following=None), means your IP is throttled. Don't freak out! Just means you need to wait for 30-60 mins before starting the code again, but sometimes it can be up to a few hours wait. You can re-run to check if still happening but don't spam too much to prevent account getting resticted, hasn't happen to me yet... *knocks on wood*
 
 ## Tips to reduce `None` results
 - Use batches (`--max 150`) and longer delays (`--sleep 5–6s`).
